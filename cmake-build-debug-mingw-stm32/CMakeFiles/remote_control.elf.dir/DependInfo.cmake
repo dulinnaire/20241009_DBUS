@@ -32,7 +32,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/RM/projects/remote_control/Core/Src/dma.c" "CMakeFiles/remote_control.elf.dir/Core/Src/dma.c.obj" "gcc" "CMakeFiles/remote_control.elf.dir/Core/Src/dma.c.obj.d"
   "E:/RM/projects/remote_control/Core/Src/gpio.c" "CMakeFiles/remote_control.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/remote_control.elf.dir/Core/Src/gpio.c.obj.d"
-  "E:/RM/projects/remote_control/Core/Src/main.c" "CMakeFiles/remote_control.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/remote_control.elf.dir/Core/Src/main.c.obj.d"
   "E:/RM/projects/remote_control/Core/Src/stm32f4xx_hal_msp.c" "CMakeFiles/remote_control.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" "gcc" "CMakeFiles/remote_control.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj.d"
   "E:/RM/projects/remote_control/Core/Src/stm32f4xx_it.c" "CMakeFiles/remote_control.elf.dir/Core/Src/stm32f4xx_it.c.obj" "gcc" "CMakeFiles/remote_control.elf.dir/Core/Src/stm32f4xx_it.c.obj.d"
   "E:/RM/projects/remote_control/Core/Src/syscalls.c" "CMakeFiles/remote_control.elf.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/remote_control.elf.dir/Core/Src/syscalls.c.obj.d"
@@ -56,6 +55,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/RM/projects/remote_control/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" "CMakeFiles/remote_control.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" "gcc" "CMakeFiles/remote_control.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj.d"
   "E:/RM/projects/remote_control/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" "CMakeFiles/remote_control.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" "gcc" "CMakeFiles/remote_control.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj.d"
   "E:/RM/projects/remote_control/Core/Src/callback.cpp" "CMakeFiles/remote_control.elf.dir/Core/Src/callback.cpp.obj" "gcc" "CMakeFiles/remote_control.elf.dir/Core/Src/callback.cpp.obj.d"
+  "E:/RM/projects/remote_control/Core/Src/main.cpp" "CMakeFiles/remote_control.elf.dir/Core/Src/main.cpp.obj" "gcc" "CMakeFiles/remote_control.elf.dir/Core/Src/main.cpp.obj.d"
+  "E:/RM/projects/remote_control/Core/Src/remote_control.cpp" "CMakeFiles/remote_control.elf.dir/Core/Src/remote_control.cpp.obj" "gcc" "CMakeFiles/remote_control.elf.dir/Core/Src/remote_control.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

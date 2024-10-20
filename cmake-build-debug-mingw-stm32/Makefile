@@ -200,29 +200,53 @@ Core/Src/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/Core/Src/gpio.c.s
 .PHONY : Core/Src/gpio.c.s
 
-Core/Src/main.obj: Core/Src/main.c.obj
+Core/Src/main.obj: Core/Src/main.cpp.obj
 .PHONY : Core/Src/main.obj
 
 # target to build an object file
-Core/Src/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/Core/Src/main.c.obj
-.PHONY : Core/Src/main.c.obj
+Core/Src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/Core/Src/main.cpp.obj
+.PHONY : Core/Src/main.cpp.obj
 
-Core/Src/main.i: Core/Src/main.c.i
+Core/Src/main.i: Core/Src/main.cpp.i
 .PHONY : Core/Src/main.i
 
 # target to preprocess a source file
-Core/Src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/Core/Src/main.c.i
-.PHONY : Core/Src/main.c.i
+Core/Src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/Core/Src/main.cpp.i
+.PHONY : Core/Src/main.cpp.i
 
-Core/Src/main.s: Core/Src/main.c.s
+Core/Src/main.s: Core/Src/main.cpp.s
 .PHONY : Core/Src/main.s
 
 # target to generate assembly for a file
-Core/Src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/Core/Src/main.c.s
-.PHONY : Core/Src/main.c.s
+Core/Src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/Core/Src/main.cpp.s
+.PHONY : Core/Src/main.cpp.s
+
+Core/Src/remote_control.obj: Core/Src/remote_control.cpp.obj
+.PHONY : Core/Src/remote_control.obj
+
+# target to build an object file
+Core/Src/remote_control.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/Core/Src/remote_control.cpp.obj
+.PHONY : Core/Src/remote_control.cpp.obj
+
+Core/Src/remote_control.i: Core/Src/remote_control.cpp.i
+.PHONY : Core/Src/remote_control.i
+
+# target to preprocess a source file
+Core/Src/remote_control.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/Core/Src/remote_control.cpp.i
+.PHONY : Core/Src/remote_control.cpp.i
+
+Core/Src/remote_control.s: Core/Src/remote_control.cpp.s
+.PHONY : Core/Src/remote_control.s
+
+# target to generate assembly for a file
+Core/Src/remote_control.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/Core/Src/remote_control.cpp.s
+.PHONY : Core/Src/remote_control.cpp.s
 
 Core/Src/stm32f4xx_hal_msp.obj: Core/Src/stm32f4xx_hal_msp.c.obj
 .PHONY : Core/Src/stm32f4xx_hal_msp.obj
@@ -781,6 +805,9 @@ help:
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
+	@echo ... Core/Src/remote_control.obj
+	@echo ... Core/Src/remote_control.i
+	@echo ... Core/Src/remote_control.s
 	@echo ... Core/Src/stm32f4xx_hal_msp.obj
 	@echo ... Core/Src/stm32f4xx_hal_msp.i
 	@echo ... Core/Src/stm32f4xx_hal_msp.s
